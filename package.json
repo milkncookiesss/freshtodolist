@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,15 @@
     "helmet": "^3.18.0",
     "mysql2": "^1.6.5",
     "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "sequelize": "^5.8.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.38.0"
   }
 }

@@ -10,7 +10,7 @@ const db = require('../database/index.js');
 app.use(helmet());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static(path.resolve(__dirname + '/../client/')))
+app.use(express.static(path.resolve(__dirname + '/../dist/')))
 app.use('/api', router);
 
 app.listen(port, () => {
